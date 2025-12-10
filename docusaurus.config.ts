@@ -9,14 +9,14 @@ import { codeTheme, gtag, redirects } from './config.config';
 const site_url = 'https://I-CCPL.github.io/';
 const author = 'I-CCPL';
 const repo_from = 'https://github.com/'
-const repo_name = "ipard"
+const repo_name = "I-CCPL"
 const repo_url = repo_from + author + '/' + repo_name
 
 /** Blog Information. */
 const meta: Config = {
   // site
   url: site_url,
-  baseUrl: '/' + repo_name,
+  baseUrl: '/',
   trailingSlash: false,
   // home
   title: author,
